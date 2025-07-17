@@ -4,34 +4,34 @@ Template Name: Página de Produto
 */
 get_header();
 ?>
-<div class="page-container">
-    <main class="main-content">
-        <section class="hero-section">
+<div class="product-page-container">
+    <main class="product-main-content">
+        <section class="product-hero-section">
             <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/a6c3985ba5f659685647e8b1fbdff4f52ce91f85?placeholderIfAbsent=true&apiKey=09a08cab14344f7287c26570cfe75cce"
                 alt="Hero Background"
-                class="hero-background"
+                class="product-hero-background"
             />
-            <div class="hero-content">
+            <div class="product-hero-content">
                 <img
                     src="https://api.builder.io/api/v1/image/assets/TEMP/e251217cfc44210a386e724a7c12c9a287da0622?placeholderIfAbsent=true&apiKey=09a08cab14344f7287c26570cfe75cce"
                     alt="Hero Overlay"
-                    class="hero-overlay"
+                    class="product-hero-overlay"
                 />
-                <div class="hero-text">
+                <div class="product-hero-text">
                     <h1 class="product-title">
-                        <span class="title-main">BLU-100</span>
+                        <span class="product-title-main">BLU-100</span>
                         <br />
-                        <span class="title-subtitle">Processador de sinal 12×8 com BLU link</span>
+                        <span class="product-title-subtitle">Processador de sinal 12×8 com BLU link</span>
                     </h1>
                 </div>
             </div>
         </section>
 
-        <section class="product-details">
-            <div class="product-layout">
+        <section class="product-details-section">
+            <div class="product-details-layout">
                 <div class="product-images">
-                    <div class="images-container">
+                    <div class="product-images-container">
                         <img
                             src="https://api.builder.io/api/v1/image/assets/TEMP/047cf9d01aefbf4e161d2b77481517172fe4a17c?placeholderIfAbsent=true&apiKey=09a08cab14344f7287c26570cfe75cce"
                             alt="Product Background"
@@ -41,42 +41,42 @@ get_header();
                             <img
                                 src="https://api.builder.io/api/v1/image/assets/TEMP/f63238949cf437ad0891eb093256b2a8b56ee34f?placeholderIfAbsent=true&apiKey=09a08cab14344f7287c26570cfe75cce"
                                 alt="BSS BLU-100 Product"
-                                class="main-product-image"
+                                class="product-main-image"
                             />
                         </div>
                         <div class="product-gallery">
                             <img
                                 src="https://api.builder.io/api/v1/image/assets/TEMP/6ee953355d942bd3dbcc2f8937622eabe5c2caae?placeholderIfAbsent=true&apiKey=09a08cab14344f7287c26570cfe75cce"
                                 alt="Gallery Item"
-                                class="gallery-icon"
+                                class="product-gallery-icon"
                             />
-                            <div class="gallery-images">
+                            <div class="product-gallery-images">
                                 <img
                                     src="https://api.builder.io/api/v1/image/assets/TEMP/5f9b10df4ae9884e637ab4f46766b87594ddacc4?placeholderIfAbsent=true&apiKey=09a08cab14344f7287c26570cfe75cce"
                                     alt="Product View 1"
-                                    class="gallery-item"
+                                    class="product-gallery-item"
                                 />
                                 <img
                                     src="https://api.builder.io/api/v1/image/assets/TEMP/3348ced05eac1ab01291a6631a01aafb1637c4e8?placeholderIfAbsent=true&apiKey=09a08cab14344f7287c26570cfe75cce"
                                     alt="Product View 2"
-                                    class="gallery-item"
+                                    class="product-gallery-item"
                                 />
                                 <img
                                     src="https://api.builder.io/api/v1/image/assets/TEMP/319d61346480801416b7ef34f20473cb8993dc61?placeholderIfAbsent=true&apiKey=09a08cab14344f7287c26570cfe75cce"
                                     alt="Product View 3"
-                                    class="gallery-item"
+                                    class="product-gallery-item"
                                 />
                             </div>
                             <img
                                 src="https://api.builder.io/api/v1/image/assets/TEMP/6dc222b6a9887e8f7300cd05b8eb3b1f0126d255?placeholderIfAbsent=true&apiKey=09a08cab14344f7287c26570cfe75cce"
                                 alt="Gallery Item"
-                                class="gallery-icon"
+                                class="product-gallery-icon"
                             />
                         </div>
                     </div>
                 </div>
                 <div class="product-info">
-                    <div class="info-content">
+                    <div class="product-info-content">
                         <div class="product-header">
                             <div class="product-category">BSS</div>
                             <h2 class="product-name">
@@ -92,31 +92,31 @@ get_header();
                             falhas.
                         </p>
                     </div>
-                    <div class="application-tags">
-                        <span class="tag">SOM AO VIVO</span>
-                        <span class="tag">ARQUITETÔNICO</span>
-                        <span class="tag">TEMPLOS RELIGIOSOS</span>
-                        <span class="tag">CINEMA</span>
-                        <span class="tag inactive">TRANSMISSÃO</span>
-                        <span class="tag inactive">EDUCAÇÃO</span>
-                        <span class="tag inactive">CORPORATIVO</span>
-                        <span class="tag inactive">HOSPITALIDADE</span>
+                    <div class="product-application-tags">
+                        <span class="product-tag">SOM AO VIVO</span>
+                        <span class="product-tag">ARQUITETÔNICO</span>
+                        <span class="product-tag">TEMPLOS RELIGIOSOS</span>
+                        <span class="product-tag">CINEMA</span>
+                        <span class="product-tag product-tag-inactive">TRANSMISSÃO</span>
+                        <span class="product-tag product-tag-inactive">EDUCAÇÃO</span>
+                        <span class="product-tag product-tag-inactive">CORPORATIVO</span>
+                        <span class="product-tag product-tag-inactive">HOSPITALIDADE</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="about-section">
-            <div class="about-container">
-                <div class="section-tabs">
-                    <div class="tab-item active">
-                        <span class="tab-title">Sobre</span>
-                        <div class="tab-indicator"></div>
+        <section class="product-about-section">
+            <div class="product-about-container">
+                <div class="product-section-tabs">
+                    <div class="product-tab-item product-tab-item-active">
+                        <span class="product-tab-title">Sobre</span>
+                        <div class="product-tab-indicator"></div>
                     </div>
-                    <span class="tab-item">Características</span>
+                    <span class="product-tab-item">Características</span>
                 </div>
-                <div class="section-divider"></div>
-                <div class="about-content">
+                <div class="product-section-divider"></div>
+                <div class="product-about-content">
                     O Soundweb London BLU-100 oferece uma configuração fixa de 12 entradas e 8
                     saídas, processamento de sinal configurável e um barramento de áudio
                     digital de alta largura de banda e tolerante a falhas.O BLU-100 possui
@@ -149,21 +149,21 @@ get_header();
             </div>
         </section>
 
-        <section class="applications-section">
-            <div class="applications-container">
-                <h2 class="applications-title">
+        <section class="product-applications-section">
+            <div class="product-applications-container">
+                <h2 class="product-applications-title">
                     Algumas
-                    <span class="highlight">aplicações</span>
+                    <span class="product-highlight">aplicações</span>
                 </h2>
                 <img
                     src="https://api.builder.io/api/v1/image/assets/TEMP/cb34a110a8d2c2755c85fb73e8013998a0214f01?placeholderIfAbsent=true&apiKey=09a08cab14344f7287c26570cfe75cce"
                     alt="Applications"
-                    class="applications-image"
+                    class="product-applications-image"
                 />
             </div>
         </section>
     </main>
 </div>
 <?php
-get_template_part('contact');
+get_template_part('template-parts/contact');
 get_footer(); 

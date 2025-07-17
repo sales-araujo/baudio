@@ -18,8 +18,8 @@ get_header();
                 </div>
             </div>
             <div class="hero-navigation">
-                <img src="https://api.builder.io/api/v1/image/assets/TEMP/24b373427cc9e3ca93a6cf97478665b0e81e749b?placeholderIfAbsent=true&apiKey=09a08cab14344f7287c26570cfe75cce" alt="Previous" class="nav-arrow">
-                <img src="https://api.builder.io/api/v1/image/assets/TEMP/16cd0366417c24e865b90b9d7f204ab7dd59fdf2?placeholderIfAbsent=true&apiKey=09a08cab14344f7287c26570cfe75cce" alt="Next" class="nav-arrow">
+                <img src="https://api.builder.io/api/v1/image/assets/TEMP/24b373427cc9e3ca93a6cf97478665b0e81e749b?placeholderIfAbsent=true&apiKey=09a08cab14344f7287c26570cfe75cce" alt="Previous" class="nav-arrow prev">
+                <img src="https://api.builder.io/api/v1/image/assets/TEMP/16cd0366417c24e865b90b9d7f204ab7dd59fdf2?placeholderIfAbsent=true&apiKey=09a08cab14344f7287c26570cfe75cce" alt="Next" class="nav-arrow next">
             </div>
             <img src="https://api.builder.io/api/v1/image/assets/TEMP/a46d1a981a6de8f42cb170aaaa3bbf6578a845fc?placeholderIfAbsent=true&apiKey=09a08cab14344f7287c26570cfe75cce" alt="Scroll Down" class="scroll-indicator">
         </section>
@@ -214,5 +214,5 @@ get_header();
     </section>
 </div>
 <?php
-get_template_part('contact');
+get_template_part('template-parts/contact');
 get_footer(); 

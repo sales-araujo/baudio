@@ -1,0 +1,214 @@
+.products-section {
+    align-self: center;
+    display: flex;
+    margin-top: 60px;
+    width: 1200px;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+@media (max-width: 991px) {
+    .products-section {
+        margin-top: 40px;
+    }
+}
+
+.products-section-title {
+    color: rgba(8, 177, 0, 1);
+    text-transform: uppercase;
+    align-self: start;
+    font: 400 16px/1 Outfit, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.products-intro {
+    margin-top: 16px;
+}
+
+@media (max-width: 991px) {
+    .products-intro {
+        max-width: 100%;
+    }
+}
+
+.products-intro-container {
+    gap: 20px;
+    display: flex;
+}
+
+@media (max-width: 991px) {
+    .products-intro-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+
+.products-intro-column {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    line-height: normal;
+    width: 50%;
+    margin-left: 0px;
+}
+
+.products-intro-column:last-child {
+    margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+    .products-intro-column {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+.products-intro-title {
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+    font: 700 32px/40px Outfit, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .products-intro-title {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.products-intro-description {
+    color: rgba(69, 77, 92, 1);
+    font: 400 16px/24px Nunito, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .products-intro-description {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.description-text {
+    font-family: Outfit, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.description-highlight {
+    font-family: Outfit, -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgba(8, 177, 0, 1);
+}
+
+.product-cards {
+    display: flex;
+    margin-top: 40px;
+    align-items: start;
+    gap: 23px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font: 700 16px/1 Outfit, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.product-card {
+    width: 221px;
+}
+
+.product-card-content {
+    background-color: rgba(238, 238, 238, 1);
+    display: flex;
+    min-height: 400px;
+    max-width: 100%;
+    width: 221px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 48px 34px;
+}
+
+@media (max-width: 991px) {
+    .product-card-content {
+        padding: 0 20px;
+    }
+}
+
+.product-brand-logo {
+    object-fit: contain;
+    object-position: center;
+}
+
+.product-card:nth-child(1) .product-brand-logo {
+    aspect-ratio: 3.69;
+    width: 59px;
+}
+
+.product-card:nth-child(2) .product-brand-logo {
+    aspect-ratio: 3;
+    width: 48px;
+}
+
+.product-card:nth-child(3) .product-brand-logo {
+    aspect-ratio: 2.19;
+    width: 35px;
+}
+
+.product-card:nth-child(4) .product-brand-logo {
+    aspect-ratio: 3.31;
+    width: 53px;
+}
+
+.product-card:nth-child(5) .product-brand-logo {
+    aspect-ratio: 1.75;
+    width: 28px;
+}
+
+.product-image {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    margin-top: 57px;
+}
+
+.product-card:nth-child(2) .product-image,
+.product-card:nth-child(3) .product-image,
+.product-card:nth-child(4) .product-image,
+.product-card:nth-child(5) .product-image {
+    margin-top: 41px;
+}
+
+.product-card:nth-child(3) .product-image,
+.product-card:nth-child(4) .product-image,
+.product-card:nth-child(5) .product-image {
+    margin-top: 45px;
+}
+
+@media (max-width: 991px) {
+    .product-image {
+        margin-top: 40px;
+    }
+}
+
+.product-name {
+    margin-top: 57px;
+}
+
+.product-card:nth-child(2) .product-name,
+.product-card:nth-child(3) .product-name,
+.product-card:nth-child(4) .product-name,
+.product-card:nth-child(5) .product-name {
+    margin-top: 41px;
+}
+
+.product-card:nth-child(3) .product-name,
+.product-card:nth-child(4) .product-name,
+.product-card:nth-child(5) .product-name {
+    margin-top: 45px;
+}
+
+@media (max-width: 991px) {
+    .product-name {
+        margin-top: 40px;
+    }
+} 

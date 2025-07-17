@@ -1,0 +1,339 @@
+/* ====== Estilos exclusivos para page-product.php ====== */
+.product-page-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.product-main-content {
+    width: 100%;
+}
+.product-hero-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    font: 400 40px Nunito, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+    .product-hero-section {
+        max-width: 100%;
+    }
+}
+.product-hero-background {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.product-hero-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 438px;
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+    padding: 174px 80px;
+}
+@media (max-width: 991px) {
+    .product-hero-content {
+        max-width: 100%;
+        padding: 100px 20px;
+    }
+}
+.product-hero-overlay {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.product-hero-text {
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    margin-bottom: -35px;
+    width: 699px;
+    max-width: 100%;
+}
+@media (max-width: 991px) {
+    .product-hero-text {
+        margin-bottom: 10px;
+    }
+}
+.product-title-main {
+    font-family: Outfit, -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: rgba(255, 255, 255, 1);
+}
+.product-title-subtitle {
+    font-family: Spline Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.product-details-section {
+    gap: 20px;
+    display: flex;
+}
+@media (max-width: 991px) {
+    .product-details-section {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+.product-details-layout {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+@media (max-width: 991px) {
+    .product-details-layout {
+        flex-direction: column;
+    }
+}
+.product-images {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    line-height: normal;
+    width: 65%;
+    margin-left: 0px;
+}
+@media (max-width: 991px) {
+    .product-images {
+        width: 100%;
+    }
+}
+.product-images-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 631px;
+    width: 100%;
+    align-items: end;
+    padding: 61px 80px;
+}
+@media (max-width: 991px) {
+    .product-images-container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+.product-main-image {
+    aspect-ratio: 2.59;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+}
+@media (max-width: 991px) {
+    .product-main-image {
+        max-width: 100%;
+    }
+}
+.product-gallery {
+    position: relative;
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+    gap: 38px;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+@media (max-width: 991px) {
+    .product-gallery {
+        max-width: 100%;
+    }
+}
+.product-gallery-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 48px;
+    align-self: stretch;
+    flex-shrink: 0;
+    margin: auto 0;
+}
+.product-gallery-images {
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 16px;
+    justify-content: start;
+    margin: auto 0;
+}
+.product-gallery-item {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 128px;
+    align-self: stretch;
+    flex-shrink: 0;
+    margin: auto 0;
+}
+.product-info-content {
+    margin-top: 58px;
+    width: 100%;
+    font-family: Outfit, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+    .product-info-content {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+.product-application-tags {
+    display: flex;
+    margin-top: 48px;
+    width: 348px;
+    max-width: 100%;
+    align-items: start;
+    gap: 16px 0px;
+    font-size: 10px;
+    color: rgba(37, 37, 37, 1);
+    font-weight: 400;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (max-width: 991px) {
+    .product-application-tags {
+        margin-top: 40px;
+    }
+}
+.product-tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 24px;
+    justify-content: start;
+    width: 77px;
+}
+.product-tag-inactive {
+    color: rgba(69, 77, 92, 1);
+}
+.product-about-section {
+    align-self: center;
+    margin-top: -5px;
+    width: 1200px;
+    max-width: 100%;
+    font: 16px Outfit, -apple-system, Roboto, Helvetica, sans-serif;
+}
+.product-about-container {
+    width: 100%;
+}
+.product-section-tabs {
+    z-index: 10;
+    display: flex;
+    width: 253px;
+    max-width: 100%;
+    align-items: stretch;
+    gap: 36px;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+@media (max-width: 991px) {
+    .product-section-tabs {
+        white-space: initial;
+    }
+}
+.product-tab-item {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+}
+.product-tab-item-active {
+    color: rgba(8, 177, 0, 1);
+    font-weight: 600;
+}
+@media (max-width: 991px) {
+    .product-tab-item {
+        white-space: initial;
+    }
+}
+.product-tab-title {
+    align-self: center;
+}
+.product-tab-indicator {
+    margin-top: 14px;
+    flex-shrink: 0;
+    height: 3px;
+    border: 3px solid rgba(8, 177, 0, 1);
+}
+.product-section-divider {
+    flex-shrink: 0;
+    height: 1px;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+@media (max-width: 991px) {
+    .product-section-divider {
+        max-width: 100%;
+    }
+}
+.product-about-content {
+    color: rgba(69, 77, 92, 1);
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 48px;
+}
+@media (max-width: 991px) {
+    .product-about-content {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+.product-applications-section {
+    background-color: rgba(245, 245, 245, 1);
+    display: flex;
+    margin-top: 58px;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+    justify-content: center;
+    padding: 58px 80px;
+    font: 700 32px Outfit, -apple-system, Roboto, Helvetica, sans-serif;
+}
+@media (max-width: 991px) {
+    .product-applications-section {
+        max-width: 100%;
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+}
+.product-applications-container {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+}
+.product-applications-title {
+    align-self: center;
+    margin: 0;
+}
+.product-highlight {
+    color: rgba(8, 177, 0, 1);
+}
+.product-applications-image {
+    aspect-ratio: 1.94;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    margin-top: 16px;
+}
+@media (max-width: 991px) {
+    .product-applications-image {
+        max-width: 100%;
+    }
+} 

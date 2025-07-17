@@ -1,0 +1,129 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    .hero-section {
+        max-width: 100%;
+        padding: 100px 20px 0;
+    }
+}
+
+.hero-background {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero-content {
+    position: absolute;
+    left: 40%;
+    top: 6.6875rem;
+    transform: translateX(-40%);
+    display: flex;
+    max-width: 699px;
+    flex-direction: column;
+    align-items: stretch;
+    font-weight: 400;
+    text-transform: uppercase;
+    justify-content: start;
+}
+
+.hero-title {
+    color: rgba(255, 255, 255, 1);
+    font: 40px Nunito, -apple-system, Roboto, Helvetica, sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .hero-title {
+        max-width: 100%;
+    }
+}
+
+.hero-title-main {
+    font-family: Outfit, -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.hero-subtitle {
+    font-family: Spline Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.hero-cta {
+    background-color: rgba(255, 255, 255, 1);
+    align-self: start;
+    display: flex;
+    margin-top: 56px;
+    align-items: center;
+    gap: 10px;
+    color: rgba(0, 0, 0, 1);
+    justify-content: center;
+    padding: 20px;
+    font: 16px Outfit, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .hero-cta {
+        margin-top: 40px;
+    }
+}
+
+.cta-button {
+    align-self: stretch;
+    margin: auto 0;
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.hero-navigation {
+    position: static;
+}
+
+@media (max-width: 991px) {
+    .hero-navigation {
+        max-width: 100%;
+    }
+}
+
+.nav-arrow {
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-arrow.prev{
+    left: 0;
+}
+
+.nav-arrow.next{
+    right: 0;
+}
+
+.scroll-indicator {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 56px;
+    position: absolute;
+    bottom: 2.5rem;
+}
+
+@media (max-width: 991px) {
+    .scroll-indicator {
+        margin-top: 40px;
+    }
+} 

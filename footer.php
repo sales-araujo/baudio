@@ -23,4 +23,7 @@
             <img src="https://api.builder.io/api/v1/image/assets/TEMP/7fe5b54f11a7d8335cde5471f552066ddb7b0afc?placeholderIfAbsent=true&apiKey=09a08cab14344f7287c26570cfe75cce" alt="Credits Logo" class="credits-logo">
         </div>
     </div>
-</footer> 
+</footer>
+<?php wp_footer(); ?>
+</body>
+</html>

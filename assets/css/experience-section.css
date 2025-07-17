@@ -1,0 +1,75 @@
+.experience-section {
+    display: flex;
+    margin-top: 60px;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+@media (max-width: 991px) {
+    .experience-section {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 782px;
+    width: 100%;
+    align-items: center;
+    font-family: Outfit, -apple-system, Roboto, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 1);
+    padding: 614px 80px 58px;
+}
+
+@media (max-width: 991px) {
+    .experience-container {
+        max-width: 100%;
+        padding: 100px 20px 0;
+    }
+}
+
+.experience-background {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.experience-content {
+    position: relative;
+    width: 955px;
+    max-width: 100%;
+}
+
+.experience-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 81px;
+}
+
+@media (max-width: 991px) {
+    .experience-title {
+        max-width: 100%;
+        margin-right: 10px;
+    }
+}
+
+.experience-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 22px;
+}
+
+@media (max-width: 991px) {
+    .experience-description {
+        max-width: 100%;
+    }
+} 
